@@ -1,8 +1,8 @@
-package test;
+
 import collectingmodule.ContextCollector;
 import core.communication.ArduinoListener;
 
-public class CollectingTest {
+public class DataCollector {
 	public static void main (String args[]) {
 		ContextCollector c = new ContextCollector("context");
 		c.setPort("COM4");
